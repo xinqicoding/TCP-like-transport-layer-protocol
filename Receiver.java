@@ -124,7 +124,7 @@ public class Receiver {
 			}
 		}
 		udp.close();
-	//	while (!window.isEmpty()) {
+		while (!window.isEmpty()) {
 			byte[] d = window.get(current);
 			os.write(d);
 			window.remove(current);
