@@ -205,7 +205,7 @@ public class Sender {
 		fileName = args[i++];
 		destIP = args[i++];
 		destPort = Integer.parseInt(args[i++]);
-		// ack port
+		 ack port
 		srcPort = Integer.parseInt(args[i++]);
 		logFile = args[i++];
 		if (!logFile.equals("stdout")) {
